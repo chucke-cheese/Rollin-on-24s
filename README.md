@@ -1,4 +1,4 @@
-https://patft.uspto.gov/netahtml/PTO/index.html Patent number US 10,223,867 B2\
+https://patft.uspto.gov/netahtml/PTO/index.html Patent number US 10,223,867 B2
 
 http://www.alphaomegasales.com/token-hopper-mounting-system-quick-coin-games-speedys-one-stop/
 
