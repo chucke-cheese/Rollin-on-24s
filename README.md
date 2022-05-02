@@ -23,13 +23,13 @@ The subroutine flow chart for the hopper control board is listed in the patent i
 
 References
 
-1.)     http://www.alphaomegasales.com/token-hopper-mounting-system-quick-coin-games-speedys-one-stop/
+1A.)http://www.alphaomegasales.com/token-hopper-mounting-system-quick-coin-games-speedys-one-stop/
         
-        http://www.sosrepairservice.com/downloads/Speedys_Coin_Hopper_Brochure.pdf#toolbar=0
+1B.)http://www.sosrepairservice.com/downloads/Speedys_Coin_Hopper_Brochure.pdf#toolbar=0
         
-        http://www.sosrepairservice.com/coinhopper.asp
+1C.)http://www.sosrepairservice.com/coinhopper.asp
 
-2.)     https://patft.uspto.gov/netahtml/PTO/index.html Patent number US 10,223,867 B2
+2.)https://patft.uspto.gov/netahtml/PTO/index.html Patent number US 10,223,867 B2
 
 
 Interesting github, unrelated to this project: https://github.com/telarium/chuckECheese_animatronic
