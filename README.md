@@ -7,7 +7,9 @@ Arduino (code provided)
 2 channel relay board
 light-up button
 
-The circuit needed for this project is named 
+The circuit needed for this project is named "Modified Hopper Wiring.pdf" Keep in mind that for this to work, there must be enough room next to the coin chute to place a hopper so that the hopper can dispense the coin directly into the game. Games such as UNIS's Rollin' on 24's or UNIS's Basket Fortune have enough room next to the coin chute.
+
+The subroutine flow chart for the hopper control board is listed in the patent information (see ref 2). This does not change in this project. Normally, when the guest taps or swipes their card, the card system sends a credit-in signal to the hopper control board to tell it to dispense a coin. This project interupts that signal. Instead, the signal goes to an arduino, which counts the credit-in as a +1. The Arduino also engages a relay that allows the guest to press a button that sends the credit-in signal to the hopper control board. The light in the button also lights up, from another relay. When the hopper dispenses the coin into the game, the coin triggers a coin switch that tells the game that a coin has been inserted. This switch also tells the Arduino the same thing, causing the Arduino to count a -1. Once the count in the Arduino reaches 0, both relays switch off, turning off the light in the button, and disengaging the button. The counter in the Arduino allows for multi-credit input, retaining the credit until played, or the game is turned off.
 
 
 References
@@ -19,4 +21,4 @@ References
 2.)     https://patft.uspto.gov/netahtml/PTO/index.html Patent number US 10,223,867 B2
 
 
-interesting github:https://github.com/telarium/chuckECheese_animatronic
+Interesting github, unrelated to this project: https://github.com/telarium/chuckECheese_animatronic
