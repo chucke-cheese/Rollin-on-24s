@@ -1,3 +1,9 @@
+The purpose of this project is to take a coin operated game such as UNIS's Rollin' On 24's, and modify it so that the guest no longer has to reach up to the top of the game where the coin mech is to play the game. The guest will be able to play the game from a button on the game, so that shorter guests can comfortably play the game.
+
+
+
+
+
 https://patft.uspto.gov/netahtml/PTO/index.html Patent number US 10,223,867 B2
 
 http://www.alphaomegasales.com/token-hopper-mounting-system-quick-coin-games-speedys-one-stop/
