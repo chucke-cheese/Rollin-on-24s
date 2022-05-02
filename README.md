@@ -5,6 +5,9 @@ If the game to modified is in an establishment that no longer uses tokens, the m
 The Items needed for this project are:
 Arduino (code provided)
 2 channel relay board
+light-up button
+
+The circuit needed for this project is named 
 
 
 References
