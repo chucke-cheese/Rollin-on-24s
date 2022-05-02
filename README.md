@@ -5,3 +5,5 @@ http://www.alphaomegasales.com/token-hopper-mounting-system-quick-coin-games-spe
 http://www.sosrepairservice.com/downloads/Speedys_Coin_Hopper_Brochure.pdf#toolbar=0
 
 http://www.sosrepairservice.com/coinhopper.asp
+
+interesting github:https://github.com/telarium/chuckECheese_animatronic
