@@ -3,8 +3,11 @@ The purpose of this project is to take a coin operated game such as UNIS's Rolli
 If the game to modified is in an establishment that no longer uses tokens, the machine may be modified already to use a coin dispenser system, such as Speedy's One Stop Shop's Coin Hopper Mounting System (see ref 1). This system includes everything that one would need to make a coin operated game able to use a card system. The brains behind this system is a hopper control board that dispences the coin to the guest when it receives a credit-in signal. In the case of Speedy's control board, the credit input line is red. This line and any one of the six ground lines is the focus of this project.
 
 The Items needed for this project are:
+
 Arduino (code provided)
+
 2 channel relay board
+
 light-up button
 
 The circuit needed for this project is named "Modified Hopper Wiring.pdf" Keep in mind that for this to work, there must be enough room next to the coin chute to place a hopper so that the hopper can dispense the coin directly into the game. Games such as UNIS's Rollin' on 24's or UNIS's Basket Fortune have enough room next to the coin chute.
