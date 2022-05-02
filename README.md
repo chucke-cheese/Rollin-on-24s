@@ -4,11 +4,17 @@ If the game to modified is in an establishment that no longer uses tokens, the m
 
 The Items needed for this project are:
 
-Arduino (code provided)
+1.) Arduino (code provided)
 
-2 channel relay board
+2.) 2 channel relay board
 
-light-up button
+3.) light-up button
+
+4.) Arduino IDE (required to upload Arduino code to Arduino)
+
+Optional Item:
+
+base for arduino and 2 channel relay board (stl and gcode files provided)
 
 The circuit needed for this project is named "Modified Hopper Wiring.pdf" Keep in mind that for this to work, there must be enough room next to the coin chute to place a hopper so that the hopper can dispense the coin directly into the game. Games such as UNIS's Rollin' on 24's or UNIS's Basket Fortune have enough room next to the coin chute.
 
