@@ -1,6 +1,6 @@
-The purpose of this project is to take a coin operated game such as UNIS's Rollin' On 24's, and modify it so that the guest no longer has to reach up to the top of the game where the coin mech is to play the game. The guest will be able to play the game from a button on the game, so that shorter guests can comfortably play the game.
+The purpose of this project is to take a coin operated game such as UNIS's Rollin' On 24's, and modify it so that the guest no longer has to reach up to the top of the game where the coin mech is to play the game. The guest will be able to play the game from a button on the game, so that shorter guests can comfortably play the game, similar to how Andamiro's Spongebob Pineapple Arcade plays.
 
-If the game to be modified is in an establishment that no longer uses tokens, the machine may be modified already to use a coin dispenser system, such as Speedy's One Stop Shop's Coin Hopper Mounting System (see ref 1). This system includes everything that one would need to make a coin operated game able to use a card system (except the card system.) The brains behind this system is a hopper control board that dispences the coin to the guest when it receives a credit-in signal. In the case of Speedy's control board, the credit input line is red. This line and any one of the six ground lines is the focus of this project.
+If the game to be modified is in an establishment that no longer uses tokens, the machine may be modified already to use a coin dispenser system, such as Speedy's One Stop Shop's Coin Hopper Mounting System (see ref 1). This system includes everything that one would need to make a coin operated game able to use a card system (except the card system.) The brains behind this system is a hopper control board that dispences the coin to the guest when it receives a credit-in signal. In the case of Speedy's hopper control board, the credit input line is red. This line and any one of the six ground lines is the focus of this project.
 
 The circuit needed for this project is named "Modified Hopper Wiring.pdf" Keep in mind that for this to work, there must be enough room next to the coin chute to place a hopper so that the hopper can dispense the coin directly into the game (see Example.jpg). According to the list of 43 coin-action games I could find, the games that will work with this project are:
 Family Fun's Basket Fortune
@@ -16,10 +16,9 @@ Family Fun's Kings Castle (possibly)
 Namco's Shoot the Moon (possibly)
 Baytek's Wonderwheel (possibly)
 
-
 The Items needed for this project are:
 1.) Arduino (code provided)
-2.) Arduino IDE (required to upload Arduino code to Arduino)
+2.) Arduino IDE (required to upload Arduino code to Arduino, found at https://www.arduino.cc/en/software)
 3.) 2 channel relay board
 4.) light-up button
 5.) Base for arduino and 2 channel relay board (stl and gcode files provided) (Optional)
@@ -36,7 +35,7 @@ The Card System Interface Board:
 All black wires are common ground, and all red wires are common 12VDC. This board contains 2 relays. One is connected to J3, and the other is a feature that enables the ticket mech shound the reader be unplugged.
 J1 connects inbetween the Ticket mech and the game. It is a good idea to power the card reader system from an external power supply, rather than taking power from the game's power supply. This can be done using a 12VDC power supply plugged into the on board barrel jack (J7), or by cutting the red wire coming from J1 and wiring the board side of the wire to a 12VDC power supply. There are six wires coming from this connector. Pin 1 is white and black, and goes to the game enable. Pin 2 s common ground. Pin 3 is common 12VDC. Pin 4 is blue and black, and goes to game notch. Pin 5 is white, and goes to the ticket mech enable (which is normally disconnected inside the interface board, but is enabled if the reader is disconnected.) Pin 6 is blue and connects to the mech notch.
 J2 connects to the coin signal from game via the brown wire. The red and black wires are generally not used.
-J3's brown wire is the coin enable, or in the case of this circuit, connects to the arduino to tell the arduino to count up 1 credit. Connect the black wire to a ground pin of the Arduino.
+J3's brown wire is the coin enable, or in the case of this circuit, connects to the Arduino to tell the arduino to count up 1 credit. Connect the black wire to a ground pin of the Arduino.
 J5 connects to the reader via a ribbin cable.
 J7 connects to an optional external 12VDC power supply.
 
