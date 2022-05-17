@@ -10,6 +10,8 @@ The Items needed for this project are:
 3.) 2 channel relay board
 4.) light-up button
 5.) Base for arduino and 2 channel relay board (stl and gcode files provided) (Optional)
+6.) Breakaway header for the arduino pins. (Optional, but very recommended)
+7.) Wire
 
 Basic Version of Getting started in Arduino (see ref 2A):
 The Arduino Uno is the basic beginners board (as well as the most common.) It has 14 digital input/outputs, 6 analog inputs, and a 16MHz clock. This allows it to interface with a variety of sensors and applications. The Uno operates at 5V, and can be powered via the USB port, or it can take an input voltage of 6-20V (7-12 recommended) on the Vin pin. It can also be powered through the barrel jack at 12V.The 5V pin can supply 1A max for powering external sensors and outputs, if more then that is required you need an external power supply. If you try to draw more then 1A, the board will be damaged. The Arduino Uno measures 2.7" by 2.1". After installing the Arduino IDE, you can begin programming the Arduino. After creating the code, or opening existing code, go to "Tools" - "Board", and choose which board you are using. Then, go to "Tools" - "Port" and choose the port that corresponds to your Arduino. Optimally, if you have only one Arduino plugged in, the port shown in the menu should be the correct one. More information and troubleshooting options can be found in ref 2B if you are having issues getting everything working. Reference 2C is the Arduino list of boards and products.
